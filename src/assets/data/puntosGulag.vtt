@@ -3,7 +3,7 @@ WEBVTT FILE
 tierra
 00:00:05.000 --> 00:00:10.000
 {
-    "title": La Tierra",
+    "title": "La Tierra",
     "description": "La Tierra se formó hace aproximadamente (___) millones de años y la vida surgió unos mil millones de años después.​ Es el hogar de millones de especies, incluidos los seres humanos y actualmente el único cuerpo astronómico donde se conoce la existencia de vida.",
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/AS8-16-2593.jpg/1024px-AS8-16-2593.jpg",
     "href": "https://es.wikipedia.org/wiki/Tierra",
@@ -19,11 +19,12 @@ aurora
 {
     "title": "Aurora",
     "description": "Una aurora se produce cuando una eyección de partículas solares cargadas choca con la (___) de la Tierra. Esta «esfera» que nos rodea obedece al campo magnético generado por el núcleo de la Tierra, formada por líneas invisibles que parten de los dos polos, como un imán. Además existen fenómenos muy energéticos, como las fulguraciones o las eyecciones de masa coronal que incrementan la intensidad del viento solar. ",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Insect_collage.png",
-    "href": "http://en.wikipedia.org/wiki/Insects",
+    "src": "https://www.informador.mx/__export/1506028988662/sites/elinformador/img/historico/0/544155.jpg_423682103.jpg",
+    "href": "https://es.wikipedia.org/wiki/Aurora_polar",
     "p1": "Magnetósfera",
     "p2": "Ionosfera",
     "p3": "Biosfera",
     "p4": "Troposfera", 
     "opcion_correcta": "Magnetósfera"
 }
+
