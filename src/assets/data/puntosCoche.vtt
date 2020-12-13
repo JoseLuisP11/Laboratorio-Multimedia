@@ -1,0 +1,42 @@
+WEBVTT FILE
+lejia
+00:01:00.500 --> 00:01:06.800
+{
+    "title": "Donde usar la lejía",
+    "description": "¿En que partes del coche tenemos que usar la lejía?.",
+    "src": "https://cdn.aarp.net/content/dam/aarp/health/conditions_treatments/2020/06/1140-person-holding-bucket-with-cleaners-esp.imgcache.rev.web.700.399.jpg",
+    "href": "https://www.aarp.org/espanol/salud/enfermedades-y-tratamientos/info-2020/errores-comunes-para-desinfectar-con-lejia.html",
+    "p1": "En las ventanas",
+    "p2": "En todo el interior del coche",
+    "p3": "En los asientos",
+    "p4": "En pantallas y manetas", 
+    "opcion_correcta": "En pantallas y manetas"
+}
+
+jabon
+00:01:59.800 --> 00:02:05.000
+{
+    "title": "Recomendaciones para el uso de jabón",
+    "description": "A la hora de desinfectar el coche podemos usar muchas formas diferentes para conseguir desinfectar el coche,pero si lo hacemos con agua y jabón.¿Que tenemos que tener en cuenta?.",
+    "src": "https://i.gyazo.com/1e47fe5763172ce21b74dffabb65628b.png",
+    "href": "https://www.youtube.com/watch?v=gtbX5r7eUDc",
+    "p1": "Cuando mas diluido el agua con jabón mejor",
+    "p2": "No usar mucho jabón ya que podría aparecer una mancha cuando esté seco",
+    "p3": "Intentar usar el máximo jabon posible para desinfectar mucho mas",
+    "p4": "Usar solo agua y jabón no es recomendable ya que puede dañar el coche", 
+    "opcion_correcta": "No usar mucho jabón ya que podría aparecer una mancha cuando esté seco"
+}
+
+vaporeta
+00:02:19.900 --> 00:02:25.000
+{
+    "title": "Vaporeta",
+    "description": "Las vaporetas son una buena solución a la hora de limpiar y desinfectar el coche,pero hay que tener cuidado ya que el vapor tiene una temperatura muy elevada.¿En qué partes tenemos que tener cuidado?.",
+    "src": "https://i.gyazo.com/c5d0c08e81d539aa14f740664a631410.png",
+    "href": "https://servicolor.com/ideas/limpiar-con-vaporeta/#:~:text=Limpia%20azulejos%20y%20juntas&text=Con%20la%20boquilla%20de%20la,no%20saltan%20o%20se%20da%C3%B1an.",
+    "p1": "En las partes sensibles al calor,como plasticos",
+    "p2": "En las zonas menos sensibles del coche",
+    "p3": "Toda la superficie del coche es robusta,por lo que no hace falta tener cuidado con la temperatura",
+    "p4": "En los cristales ya que con la diferencia de temperatura se podrían quebrar", 
+    "opcion_correcta": "En las partes sensibles al calor,como plasticos"
+}

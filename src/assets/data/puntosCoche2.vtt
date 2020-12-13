@@ -1,0 +1,43 @@
+WEBVTT FILE
+
+extintor
+00:00:49.500 --> 00:00:55.800
+{
+    "title": "Extintor",
+    "description": "Hay muchos tipos de extintores,pero para el coche ¿Cual es el más recomendado?",
+    "src": "https://i.gyazo.com/6b075f32f904c25a375c84cea5ba2941.png",
+    "href": "https://www.previfoc.com/actualidad/diferencias-entre-un-extintor-de-polvo-y-uno-de-co2",
+    "p1": "Extintores de polvo",
+    "p2": "Extintores de agua",
+    "p3": "Extintores de madera",
+    "p4": "Extintores de espuma", 
+    "opcion_correcta": "Extintores de polvo"
+}
+
+botiquin
+00:01:17.800 --> 00:01:23.500
+{
+    "title": "Botiquin",
+    "description": "El botiquin es algo crucial en una situación de riesgo,pero si lo abrimos y esta vacío es una gran problema,antes de meterlo en el coche es recomendable ver que llevamos en él.¿Qué elementos tenemos es recomendable que tenga el botiquin?",
+    "src": "https://i.gyazo.com/0e7c1587634b8926cb2c6b61cda9aa2f.png",
+    "href": "https://es.wikipedia.org/wiki/Botiqu%C3%ADn",
+    "p1": "Vendas,gasas,protección térmica,tijeras,desparadrado,desinfectante y crema para las quemaduras",
+    "p2": "No es necesario que mire el botiquin,esta pregunta no tiene sentido",
+    "p3": "Tijeras,vendas y gasas",
+    "p4": "Proteccion términca y crema para las quemaduras", 
+    "opcion_correcta": "Vendas,gasas,protección térmica,tijeras,desparadrado,desinfectante y crema para las quemaduras"
+}
+
+objetos
+00:01:54.800 --> 00:02:01.000
+{
+    "title": "Qué llevar en el coche",
+    "description": "¿Qué elementos es recomendable llevar en el coche?",
+    "src": "https://i.gyazo.com/a93e1c55db6e3de0329b90dce367edb5.png",
+    "href": "https://motor.elpais.com/actualidad/cosas-llevar-en-el-coche/",
+    "p1": "Una navaja multiusos,un extintor y una linterna",
+    "p2": "Solo lo imprecindible",
+    "p3": "Solo lo obligatorio",
+    "p4": "Un abrigo por si tenemos frio", 
+    "opcion_correcta": "Una navaja multiusos,un extintor y una linterna"
+}

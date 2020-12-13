@@ -1,0 +1,44 @@
+WEBVTT FILE
+
+ingredientes
+00:00:45.300 --> 00:00:51.000
+{
+    "title": "Ingredientes",
+    "description": "Para nuestro bizcocho debemos de usar: ______, huevos, levadura, harina, yogurt, rayadura de limón y azúcar",
+    "src": "https://i.gyazo.com/b9530908e33a60c196a6dafcb28a0cf0.png",
+    "href": "https://es.wikipedia.org/wiki/Bizcochuelo",
+    "p1": "Sal",
+    "p2": "Mantequilla",
+    "p3": "Aceite",
+    "p4": "Jugo de limón", 
+    "opcion_correcta": "Aceite"
+}
+
+yo
+00:01:20.500 --> 00:01:24.600
+{
+    "title": "Bizcocho de yogur natural",
+    "description": "Si queremos hacer un bizcocho de yogur natural en vez de rayadura de limón, ¿Qué podemos añadirle?.",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Joghurt.jpg/800px-Joghurt.jpg",
+    "href": "https://es.wikipedia.org/wiki/Yogur",
+    "p1": "Especias exóticas",
+    "p2": "Aroma de vainilla o lo que mas nos guste para darle olor",
+    "p3": "Sal",
+    "p4": "Pimienta", 
+    "opcion_correcta": "Aroma de vainilla o lo que mas nos guste para darle olor"
+}
+
+
+Horno
+00:02:21.500 --> 00:02:26.600
+{
+    "title": "Tiempo de cocción",
+    "description": "¿Cuánto tiempo tenemos que tener el bizcocho en el horno y a que temperatura?",
+    "src": "https://i.gyazo.com/c7bda1ddd5329156eafaff77f2ac5f07.png",
+    "href": "https://es.wikipedia.org/wiki/Cocci%C3%B3n",
+    "p1": "30-35 minutos a 180 grados",
+    "p2": "10-15 minutos a 280 grados",
+    "p3": "60-70 minutos a 120 grados",
+    "p4": "No hace falta ornearlo,así ya vale", 
+    "opcion_correcta": "30-35 minutos a 180 grados"
+}

@@ -1,0 +1,41 @@
+<div class="video-player-wrapper">
+    <vg-player (onPlayerReady)="onPlayerReady($event)">
+        <ng-container *ngIf="activeCuePoints">
+            <div *ngFor="let cuePointData of activeCuePoints" class="info-layer">
+                <div *ngIf="mostrarAhorcado(api)"> 
+                    <app-ahorcado></app-ahorcado>
+                    <button type="button" class="btn btn-secondary"
+                    (click)="ocultarAhorcado(api,cuePointData)">Pulse aquí para ocultar el ahorcado</button>
+                </div>
+            </div>
+        </ng-container>
+
+
+        <vg-overlay-play></vg-overlay-play>
+        <vg-buffering></vg-buffering>
+
+        <vg-controls>
+            <vg-play-pause></vg-play-pause>
+            <vg-playback-button></vg-playback-button>
+
+            <vg-time-display vgProperty="current" vgFormat="mm:ss"></vg-time-display>
+
+            <vg-scrub-bar>
+                <vg-scrub-bar-buffering-time></vg-scrub-bar-buffering-time>
+                <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+                <vg-scrub-bar-cue-points [vgCuePoints]="metadataTrack.cues"></vg-scrub-bar-cue-points>
+            </vg-scrub-bar>
+
+            <vg-time-display vgProperty="total" vgFormat="mm:ss"></vg-time-display>
+            <vg-mute></vg-mute>
+            <vg-volume></vg-volume>
+
+            <vg-fullscreen></vg-fullscreen>
+        </vg-controls>
+        <video #media [vgMedia]="media" [src]="currentVideo.src" id="singleVideo" preload="auto" crossorigin>
+            <track src="{{ currentVideo.vtt }}" kind="metadata" label="Cue Points" default #metadataTrack vgCuePoints
+                (onEnterCuePoint)="onEnterCuePoint($event)" (onExitCuePoint)="onExitCuePoint($event,api)">
+        </video>
+        <div class="ui-layer"></div>
+    </vg-player>
+</div>

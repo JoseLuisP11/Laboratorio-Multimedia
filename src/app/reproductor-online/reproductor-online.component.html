@@ -1,0 +1,36 @@
+<div class="video-player-wrapper">
+    <vg-player (onPlayerReady)="onPlayerReady($event)">
+        <vg-overlay-play></vg-overlay-play>
+        <vg-buffering></vg-buffering>
+
+        <vg-controls>
+            <vg-play-pause></vg-play-pause>
+
+            <vg-scrub-bar>
+                <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+                <vg-scrub-bar-buffering-time></vg-scrub-bar-buffering-time>
+            </vg-scrub-bar>
+
+            <vg-time-display vgProperty="left" vgFormat="mm:ss"></vg-time-display>
+
+            <vg-mute></vg-mute>
+            <vg-volume></vg-volume>
+
+            <vg-fullscreen></vg-fullscreen>
+        </vg-controls>
+
+        <video #media  [vgMedia]="media" [vgDash]="currentStream.source"
+            [vgHls]="currentStream.source" [vgDRMToken]="currentStream.token"
+            id="singleVideo" crossorigin>
+        </video>
+    </vg-player>
+
+    <label>
+        Introduzca una Url: <input type="text" style="width: 800px;" [(ngModel)]="'https://cors-anywhere.herokuapp.com/'+ currentStream.source">
+    </label>
+
+    <ul class="player-list">
+        <li *ngFor="let stream of streams" (click)="onClickStream(stream)"
+            [ngClass]="{'selected': currentStream === stream}">{{ stream.label }}</li>
+    </ul>
+</div>
