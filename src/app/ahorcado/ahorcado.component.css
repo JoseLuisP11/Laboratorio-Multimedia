@@ -1,0 +1,155 @@
+strong {
+    font-weight: bolder !important;
+    position: relative !important;
+    bottom: 25px !important;
+    font-size: 18px !important;
+    color: #6c757d;
+  }
+ 
+  ::placeholder {
+    color: #cbcbcb;
+    opacity: 4.5;
+    font-size: 8px
+  }
+ .example-form {
+   width: 300px;
+ }
+ 
+ input[type="search"]::-webkit-search-cancel-button {
+   -webkit-appearance: searchfield-cancel-button;
+ }
+ /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: #cccccc;
+    overflow: auto;
+}
+
+button {
+    margin: 8px;
+}
+
+.win {
+    color: #18d455;
+}
+
+.lost {
+    color: #e20f15;
+}
+
+h1,
+.form-group,
+input {
+    color: #444;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #fff !important;
+    border-color: #6a27db !important;
+    color: black;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #fff;
+    background-color: #e1d3f7 !important;
+    border-color: #e1d3f7 !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #6a27db !important;
+    border-color: #6a27db !important;
+}
+
+.mark,
+mark {
+    padding: .2em;
+    background-color: #ffffed;
+    color: #6c757d;
+}
+
+.container {
+    position: relative;
+    max-width: 50rem;
+    background: #fff;
+    width: 100%;
+    padding-top: 80px;  
+    border-radius: 1px;
+}
+
+.form-group {
+    position: relative;
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+}
+
+.form-group .control-label {
+    position: absolute;
+}
+
+.form-group .bar {
+    position: relative;
+    border-bottom: 0.0625rem solid #999;
+    display: block;
+}
+
+.form-group .bar::before {
+    content: '';
+    height: 0.125rem;
+    width: 0;
+    left: 50%;
+    bottom: -0.0625rem;
+    position: absolute;
+    background: #6a27db;
+    -webkit-transition: left 0.28s ease, width 0.28s ease;
+    transition: left 0.28s ease, width 0.28s ease;
+    z-index: 2;
+}
+
+.form-group input,
+.form-group textarea {
+    font-size: 12px;
+    width: 100%;
+    color: #6c757d;
+    border-radius: 4em;
+}
+
+.form-group input:valid~.control-label {
+    font-size: 0.8rem;
+    color: gray;
+    top: -1rem;
+    left: 0;
+}
+
+.form-group input:focus {
+    outline: none;
+    color: #333;
+}
+
+.img-card {
+    max-width: 400px;
+    margin: 0 auto;
+    height: 21rem;
+    float: none;
+    margin-bottom: 10px;
+}
+
+
+hr {
+    border-radius: 5px;
+}
+
+.label-block {
+    display: block;
+    margin-left: 5px;
+    font-size: 18px !important;
+    color: #6c757d;
+}

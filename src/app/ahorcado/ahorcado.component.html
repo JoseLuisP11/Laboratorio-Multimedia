@@ -1,0 +1,37 @@
+<div class="container">
+    <form>
+        <div mat-card-avatar class="tp-header-image"></div>
+        <div class="col text-center">
+            <strong>Intentos &nbsp;<mark>{{ tries }} / 10</mark></strong>
+            <h1><mark>{{hiddenWord}}</mark></h1>
+        </div>
+        <hr>
+        <br>
+        <div class="row" *ngIf="win">
+            <div class="col text-center">
+                <h3 class="win">¡Has ganado!</h3>
+                <br>
+                <button class="btn btn-primary" (click)="reload()">Juega de nuevo</button>
+            </div>
+        </div>
+        <div class="row" *ngIf="lost">
+            <div class="col text-center">
+                <h3 class="lost">Has perdido...</h3>
+                <h3 class="lost">La palabra era: <mark>{{word}}</mark></h3>
+                <button class="btn btn-primary" (click)="reload()">Inténtalo de nuevo</button>
+            </div>
+        </div>
+        <div class="button-container" *ngIf="!win && !lost">
+            <div class="form-group">
+                <label class="label-block">Adivina una letra</label>
+                <input class="form-control form-control-inline form-control-large" (keyup)='onKey($event)' type="search" placeholder="Pulsa la letra" />
+            </div>
+            <div class="col text-center">
+                <button class="btn btn-primary" id="btn-{{letter}}" (click)="check(letter)" *ngFor="let letter of letters">
+          {{letter}}
+        </button>
+                <hr>
+            </div>
+        </div>
+    </form>
+</div>
